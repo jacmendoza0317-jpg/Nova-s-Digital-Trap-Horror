@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nova's Digital Trap</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom, #1a1a2e, #16213e);
+      font-family: 'Courier New', monospace;
+      color: #ccc;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 100px;
+      font-size: 48px;
+      color: #ff4c4c;
+      text-shadow: 0 0 10px #ff4c4c;
+    }
+    button {
+      margin-top: 50px;
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: #333;
+      color: #fff;
+      border: 2px solid #ff4c4c;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #ff4c4c;
+      color: #000;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nova's Digital Trap</h1>
+  <button onclick="startGame()">Play</button>
+
+  <!-- Background Music -->
+  <audio autoplay loop controls>
+  <source src="https://cdn.pixabay.com/download/audio/2025/05/30/audio_016a16636f.mp3?filename=nostalgic-background-351782.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+  <script>
+    function startGame() {
+      alert("Game is starting...");
+    }
+  </script>
+</body>
+</html>
